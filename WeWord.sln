@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeWord.API", "WeWord.API\WeWord.API.csproj", "{948CC270-1C03-45E7-BC76-A2002EB7A9CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeWord.Web", "WeWord.Web\WeWord.Web.csproj", "{6D3AF44A-6D2A-4AEA-BEEB-3F1BD083C5D7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{948CC270-1C03-45E7-BC76-A2002EB7A9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948CC270-1C03-45E7-BC76-A2002EB7A9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948CC270-1C03-45E7-BC76-A2002EB7A9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948CC270-1C03-45E7-BC76-A2002EB7A9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3AF44A-6D2A-4AEA-BEEB-3F1BD083C5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3AF44A-6D2A-4AEA-BEEB-3F1BD083C5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3AF44A-6D2A-4AEA-BEEB-3F1BD083C5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3AF44A-6D2A-4AEA-BEEB-3F1BD083C5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
